@@ -133,3 +133,63 @@ display: block;
   #63B3D2 50%,
   #BFE5F2);
 }
+
+
+.transeform{
+font-size: 10px;
+ width: 100px;
+  text-align: center;
+  padding: 45px 0px;
+  margin: 20px;
+  background-color: mediumspringgreen;
+}
+.transeleteX{
+transform:transeleteX(10px);
+}
+.transeleteY{
+transform:transeleteY(10px);
+}
+.transelete{
+transform:transelete(-20px,-5px);
+}
+.scale{
+transform:scale(1.2);
+}
+.scaleY{
+transform:scale(0.6);
+}
+.rotate{
+  transform:rotate(0.6);
+}
+.skewX{
+transform: skewX(30deg);
+}
+.skewY{
+transform: skewY(45deg);
+}
+.skew{
+transform: skew(30deg,45deg));
+}
+.transform-origin{
+transform-origin: 0% 0%;
+  transform: rotate(30deg);
+}
+
+
+p.transition{
+margin: 10px;
+}
+p.transition a{
+background-color: mediumseagreen;
+ color: white;
+  font-size: 30px;
+ text-decoration: none;
+  padding: 5px;
+  transition: 1s;
+}
+p.transition a:hover{
+background-color: gold;
+ text-decoration: none;
+  padding: 5px;
+ color:black;
+}
