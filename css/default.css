@@ -104,13 +104,13 @@ white 50%);
 background-color: white;
 background: linear-gradient(90deg,
 orangered 0%,
-white 50%
+white 50%,
 orange 100%);
 }
 .skew-gradient{
 background-color: white;
 background: linear-gradient(135deg,
 orangered 0%,
-white 50%
+white 50%,
 orange 100%);
 }
