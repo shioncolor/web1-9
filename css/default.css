@@ -10,7 +10,7 @@ padding: 0;
 body{
 background-image: url(..//a/Julia_Geiser_Collage_07.gif),url(..//a/3511459871069.jpg);
 background-repeat: no-repeat,no-repeat;
-background-size: 100% 100%,cover;
+background-size: 100% 10%,cover;
 background-color: lightgrey;
 margin: 5px;
 }
