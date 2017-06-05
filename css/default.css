@@ -8,6 +8,9 @@ padding: 0;
 
 /*  main */
 body{
+background-image: url(..//a/Julia_Geiser_Collage_07.gif),url(..//a/3511459871069.jpg);
+background-repeat: no-repeat,no-repeat;
+background-size: 100% 100%,cover;
 background-color: lightgrey;
 margin: 5px;
 }
@@ -57,7 +60,7 @@ padding: 10px;
 margin:  5px;
 }
 .border-radius-four{
-border-radius:5px 10px 20px 40px;
+border-radius: 5px 10px 20px 40px;
 background-color: floralwhite;
 padding: 10px;
 margin:  5px;
