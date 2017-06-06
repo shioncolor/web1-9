@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 /* reset css */
 *{
@@ -67,15 +67,15 @@ margin:  5px;
 }
                
 #box-shadow{
-font-size: 30px:
+font-size: 30px;
 }
 .box-drop_shadow{box-shadow: 2px 2px 5px gray; padding:5px; margin:20px;}
 .box-grow{color: white;
-box-shadow: 0px 0px 10px gray; padding: 5px margin:20px;}
-.box-inset_drop_shadow{box-shadow: 2px 2px 5px gray inset; padding:20px margin 20px;}
-.box-inset_grow{box-shadow: 0px 0px 15px silver inset; padding: 5px margin 20px;}
-.box-spread_shadow{box-shadow:0px 0px 0px 3px black; padding: 5px margin 20px;}
-.box-multi_shadow{box-shadow: 0px 0px 0px 3px lightgrey inset,
+box-shadow: 0px 0px 10px gray; padding: 5px; margin:20px;}
+.box-inset_drop_shadow{box-shadow: 2px 2px 5px gray inset; padding:20px; margin:20px;}
+.box-inset_grow{box-shadow: 0px 0px 15px silver inset; padding: 5px; margin:20px;}
+.box-spread_shadow{box-shadow:0px 0px 0px 3px black; padding: 5px; margin:20px;}
+.box-multi_shadow{box-shadow: 0px 0px 0px 3px lightgray inset,
 0px 0px 0px 4px black inset,
 2px 2px 10px 0px black; padding: 5px; margin: 20px;}
 
@@ -144,13 +144,13 @@ font-size: 10px;
   background-color: mediumspringgreen;
 }
 .transeleteX{
-transform:transeleteX(10px);
+transform:translateX(10px);
 }
 .transeleteY{
-transform:transeleteY(10px);
+transform:translateY(10px);
 }
 .transelete{
-transform:transelete(-20px,-5px);
+transform:translate(-20px,-5px);
 }
 .scale{
 transform:scale(1.2);
@@ -159,7 +159,7 @@ transform:scale(1.2);
 transform:scale(0.6);
 }
 .rotate{
-  transform:rotate(0.6);
+  transform:rotate(30deg);
 }
 .skewX{
 transform: skewX(30deg);
@@ -168,7 +168,7 @@ transform: skewX(30deg);
 transform: skewY(45deg);
 }
 .skew{
-transform: skew(30deg,45deg));
+transform: skew(30deg,45deg);
 }
 .transform-origin{
 transform-origin: 0% 0%;
