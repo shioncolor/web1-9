@@ -168,7 +168,7 @@ transform: skewX(30deg);
 transform: skewY(45deg);
 }
 .skew{
-transform: skew(30deg,45deg));
+transform: skew(30deg,45deg);
 }
 .transform-origin{
 transform-origin: 0% 0%;
